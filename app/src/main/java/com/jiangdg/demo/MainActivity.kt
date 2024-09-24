@@ -22,7 +22,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.PermissionChecker
 import androidx.fragment.app.Fragment
-import com.gyf.immersionbar.ImmersionBar
+implementation com.geyifeng.immersionbar.immersionbar
 import com.jiangdg.ausbc.utils.ToastUtils
 import com.jiangdg.ausbc.utils.Utils
 import com.jiangdg.demo.databinding.ActivityMainBinding
@@ -34,7 +34,7 @@ import com.jiangdg.demo.databinding.ActivityMainBinding
  */
 class MainActivity : AppCompatActivity() {
     private var mWakeLock: PowerManager.WakeLock? = null
-    private var immersionBar: ImmersionBar? = null
+    private var immersionBar: immersionBar? = null
     private lateinit var viewBinding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
